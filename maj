@@ -1,5 +1,5 @@
 #!/bin/bash 
-echo "Voulez-vous faire les mises a jour de votre machine (yes/no)"
+echo -n "Voulez-vous faire les mises a jour de votre machine (yes/no)"
 read result
  if [ "$result" = "yes" ]; then
   clear
