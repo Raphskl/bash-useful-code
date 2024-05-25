@@ -1,13 +1,10 @@
 #!/bin/bash
-#echo -n "username: "
-#read username
-username=bdecoder
-#echo -n "repository name: "
-#read reponame
-reponame=bash-useful-code
-#echo -n "enter the full path to the repo: "
-#read path
-path="/home/work/Desktop/Scripts/bash-useful-code"
+echo -n "username: "
+read username
+echo -n "repository name: "
+read reponame
+echo -n "enter the full path to the repo: "
+read path
 echo "Ok, please wait few seconds pls"
 cd $path
 clear
